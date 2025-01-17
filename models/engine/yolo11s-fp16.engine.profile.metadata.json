@@ -1,0 +1,82 @@
+{
+    "performance_summary": {
+        "Throughput": 1277.76,
+        "Latency": [
+            0.760834,
+            1.23999,
+            0.781262,
+            0.765015,
+            0.7854,
+            0.952393,
+            1.00555
+        ],
+        "Enqueue Time": [
+            0.0117188,
+            0.381592,
+            0.027447,
+            0.0141602,
+            0.052002,
+            0.126953,
+            0.142822
+        ],
+        "H2D Latency": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+        ],
+        "GPU Compute Time": [
+            0.760834,
+            1.23999,
+            0.781262,
+            0.765015,
+            0.7854,
+            0.952393,
+            1.00555
+        ],
+        "D2H Latency": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+        ],
+        "Total Host Walltime": 3.00135,
+        "Total GPU Compute Time": 2.99614
+    },
+    "inference_options": {
+        "Batch": "1",
+        "Input inference shapes": "model",
+        "Iterations": "10",
+        "Duration": "3s (+ 200ms warm up)",
+        "Sleep time": "0ms",
+        "Idle time": "0ms",
+        "Inference Streams": "1",
+        "ExposeDMA": "Disabled",
+        "Data transfers": "Disabled",
+        "Spin-wait": "Enabled",
+        "Multithreading": "Disabled",
+        "CUDA Graph": "Enabled",
+        "Separate profiling": "Enabled",
+        "Time Deserialize": "Disabled",
+        "Time Refit": "Disabled",
+        "NVTX verbosity": "2",
+        "Persistent Cache Ratio": "0",
+        "Inputs": ""
+    },
+    "device_information": {
+        "Selected Device": "NVIDIA GeForce RTX 4070 Ti SUPER",
+        "Compute Capability": 8.9,
+        "SMs": 66.0,
+        "Device Global Memory": "16375 MiB",
+        "Shared Memory per SM": "100 KiB",
+        "Memory Bus Width": 256.0,
+        "Application Compute Clock Rate": "2.625 GHz",
+        "Application Memory Clock Rate": "10.501 GHz"
+    }
+}
