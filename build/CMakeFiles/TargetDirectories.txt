@@ -1,3 +1,0 @@
-/home/clark/projects/deploy-yolo-multitask/build/CMakeFiles/yolo_tensorrt.dir
-/home/clark/projects/deploy-yolo-multitask/build/CMakeFiles/edit_cache.dir
-/home/clark/projects/deploy-yolo-multitask/build/CMakeFiles/rebuild_cache.dir
